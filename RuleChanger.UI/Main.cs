@@ -24,8 +24,6 @@ public partial class Main : Form
 
     private void Main_Load(object sender, EventArgs e)
     {
-        TopMost = true;
-
         if (!this.ReadSettings())
             MessageBox.Show("Settings not found, please contact with programmer.");
 
